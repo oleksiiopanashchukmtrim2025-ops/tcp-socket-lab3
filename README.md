@@ -1,4 +1,5 @@
-# TCP Socket Server Project
+## TCP Socket Server Project
+
 > Цей проєкт реалізує простий TCP‑сервер на Java з використанням Maven. Сервер підтримує кілька клієнтських 
  підключень та обробляє команди, визначені у класі ProtocolManager.java.
 
@@ -7,19 +8,19 @@
 * Apache Maven
 * Git (для клонування репозиторію)
 
-**Встановлення**
-Клонувати репозиторій:
-'git clone https://github.com/oleksiiopanashchukmtrim2025-ops/tcp-socket-lab3.git'
-'cd tcp-socket-lab3'
+**Встановлення**    
+Клонувати репозиторій:  
+* git clone https://github.com/oleksiiopanashchukmtrim2025-ops/tcp-socket-lab3.git   
+* cd tcp-socket-lab3
 
-**Зібрати проєкт:**
-'mvn clean install'
+**Зібрати проєкт:**  
+*  mvn clean install
 
-**Запуск сервера**
-'mvn exec:java -Dexec.args="0.0.0.0 151"'
-0.0.0.0 означає, що сервер слухає всі доступні мережеві інтерфейси.
-151 — порт, на якому працює сервер.
+**Запуск сервера**   
+* mvn exec:java -Dexec.args="0.0.0.0 151"
+* 0.0.0.0 означає, що сервер слухає всі доступні мережеві інтерфейси.  
+* 151 — порт, на якому працює сервер.  
 
-**Запуск клієнта**
+**Запуск клієнта**  
 Приклад клієнта може підключатися до сервера, використовуючи той самий хост і порт:
-'java Client'
+* java Client'
