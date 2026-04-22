@@ -9,25 +9,17 @@
 
 **Встановлення**
 Клонувати репозиторій:
-git clone https://github.com/oleksiiopanashchukmtrim2025-ops/tcp-socket-lab3.git
-cd tcp-socket-lab3
+'git clone https://github.com/oleksiiopanashchukmtrim2025-ops/tcp-socket-lab3.git'
+'cd tcp-socket-lab3'
 
-Зібрати проєкт:
+**Зібрати проєкт:**
+'mvn clean install'
 
-mvn clean install
-
-Запуск сервера
-
-Запустити сервер можна командою:
-
-mvn exec:java -Dexec.args="0.0.0.0 151"
-
+**Запуск сервера**
+'mvn exec:java -Dexec.args="0.0.0.0 151"'
 0.0.0.0 означає, що сервер слухає всі доступні мережеві інтерфейси.
-
 151 — порт, на якому працює сервер.
 
-Запуск клієнта
-
+**Запуск клієнта**
 Приклад клієнта може підключатися до сервера, використовуючи той самий хост і порт:
-
-java Client
+'java Client'
