@@ -2,17 +2,13 @@
 > Цей проєкт реалізує простий TCP‑сервер на Java з використанням Maven. Сервер підтримує кілька клієнтських 
  підключень та обробляє команди, визначені у класі ProtocolManager.java.
 
-Вимоги
+**Вимоги**
+* Java JDK (версія 8 або новіша)
+* Apache Maven
+* Git (для клонування репозиторію)
 
-Java JDK (версія 8 або новіша)
-
-Apache Maven
-
-Git (для клонування репозиторію)
-Встановлення
-
+**Встановлення**
 Клонувати репозиторій:
-
 git clone https://github.com/oleksiiopanashchukmtrim2025-ops/tcp-socket-lab3.git
 cd tcp-socket-lab3
 
